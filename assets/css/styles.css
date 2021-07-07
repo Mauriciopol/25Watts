@@ -5,6 +5,7 @@
 body{
     background-image: url("../img/slider-1@2x.png");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 header{
@@ -30,3 +31,60 @@ nav a{
     font-size: 1rem;
     margin-top: 2.3rem;
 }
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+}
+
+
+.presentacion {
+    font-size: 48px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 60px;
+    margin-left: 101px;
+    width: 554px;
+    height: 115px;
+  }
+
+  .presentacion h1{
+      font-size: 48px;
+  }
+
+  .presentacion p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    width: 343px;
+  }
+  
+
+  button {
+    background-color: #E0752F;
+    border-radius: 25px;
+    padding: 14px 2rem;
+    border-color: transparent;
+ }
+
+ button a{
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 16px;
+    text-decoration: none;
+ }
+
+ .segunda{
+    font-size: 38px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 167px;
+    margin-left: 405px;
+    width: 602px;
+    height: 402px;  
+ }
+  
+ .naranja{
+     color: #E0752F;
+ }
